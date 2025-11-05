@@ -1,12 +1,43 @@
-# React + Vite
+# Myntra Fashion DNA – The GenZ Way of Shopping  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Hackathon: Myntra HackerRamp: WeForShe 2025  
+---
 
-Currently, two official plugins are available:
+## Project Overview  
+A GenZ-focused fashion-tech project for the Myntra WeForShe Hackathon, transforming Myntra FWD into a social, interactive, and inclusive fashion ecosystem with Fashion DNA, avatar closets, and community-driven engagement.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## DNA (Design • Novelty • Accessibility)  
+- **Design:** Modern, GenZ-inspired, minimalist UI.  
+- **Novelty:** Introduces Fashion DNA – a unique, evolving style identity.  
+- **Accessibility:** Inclusive design that celebrates diversity and individuality.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Key Features  
+- **Fashion DNA** → Personalized style identity  
+- **Avatar Closet** → Interactive fashion experience  
+- **Social Fashion Ecosystem** → Community, UGC & influencer interactions  
+- **Vibe-Based Discovery** → Mood-first exploration  
+- **Geo-Trend Mapping** → Localized fashion trends  
+
+---
+
+## Tech Stack  
+React + Vite | Modular CSS | React State & Props | JSON/JS Mock Data  
+
+---
+
+## Future Scope  
+- AI-powered styling assistant integrated with Fashion DNA  
+- Fashion battles, leaderboards, and gamified fashion journeys  
+- Creator monetization and GenAI-powered vibe search  
+
+---
+
+## Impact  
+- Boosts GenZ loyalty and engagement through social shopping  
+- Strengthens Myntra’s brand differentiation as a fashion-tech lifestyle platform  
+
+---
