@@ -1,0 +1,53 @@
+// More mock posts for the Influencing (Fashion Shorts) section
+export const moreMockPosts = [
+  {
+    id: 3,
+    username: "@runwayqueen",
+    avatar: "https://randomuser.me/api/portraits/women/45.jpg",
+    mediaUrl: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+    mediaType: "image",
+    caption: "Runway ready in bold colors! #runway #fashionweek",
+    likes: 21,
+    liked: false,
+  },
+  {
+    id: 4,
+    username: "@urbantrendz",
+    avatar: "https://randomuser.me/api/portraits/men/56.jpg",
+    mediaUrl: "https://www.w3schools.com/html/movie.mp4",
+    mediaType: "video",
+    caption: "Urban street style for the win. #urban #streetstyle",
+    likes: 15,
+    liked: false,
+  },
+  {
+    id: 5,
+    username: "@vintagevibes",
+    avatar: "https://randomuser.me/api/portraits/women/67.jpg",
+    mediaUrl: "https://images.unsplash.com/photo-1469398715555-76331a6c7c9b",
+    mediaType: "image",
+    caption: "Vintage never goes out of style. #vintage #retro",
+    likes: 18,
+    liked: false,
+  },
+  {
+    id: 6,
+    username: "@minimalman",
+    avatar: "https://randomuser.me/api/portraits/men/88.jpg",
+    mediaUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    mediaType: "image",
+    caption: "Minimalist fits for every day. #minimal #fashion",
+    likes: 9,
+    liked: false,
+  },
+  {
+    id: 7,
+    username: "@partydiva",
+    avatar: "https://randomuser.me/api/portraits/women/90.jpg",
+    mediaUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+    mediaType: "video",
+    caption: "Party night glam! #partywear #glam",
+    likes: 25,
+    liked: false,
+  }
+];

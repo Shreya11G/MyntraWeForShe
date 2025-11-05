@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.4rem 1.8rem; /* slimmer height */
+	background: linear-gradient(90deg, #ff758c, #ff7eb3);
+	border-radius: 0 0 15px 15px;
+	font-family: "Poppins", sans-serif;
+	position: sticky; /* stays on top */
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25); /* added appealing shadow */
+	transition: all 0.3s ease;
+}
+
+.navbar h1 {
+	color: #fff;
+	font-size: 1.5rem; /* smaller for slimmer navbar */
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar h1:hover {
+	transform: scale(1.05);
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links {
+	display: flex;
+	gap: 1rem; /* reduced gap for slimmer look */
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	position: relative;
+	transition: color 0.3s ease;
+	font-size: 0.95rem;
+}
+
+.nav-links a::after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	bottom: -3px;
+	left: 0;
+	background-color: #fff;
+	transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+	color: #ffe6f0;
+}
+
+.nav-links a:hover::after {
+	width: 100%;
+}
+
+/* Search box styling */
+.search-box {
+	margin-left: 1.5rem;
+	flex-grow: 1;
+	max-width: 280px; /* slightly smaller width */
+}
+
+.search-box input {
+	width: 100%;
+	padding: 0.35rem 0.8rem; /* smaller padding for slim navbar */
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	font-size: 0.95rem;
+	transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+	background-color: #fff0f5;
+}

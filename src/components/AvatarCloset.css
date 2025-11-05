@@ -1,0 +1,42 @@
+.avatar-closet-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 2rem;
+}
+.avatar-closet-flex {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+.avatar-svg-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closet-list {
+  flex: 1;
+  min-width: 180px;
+}
+.closet-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  background: #f7f7f7;
+  transition: background 0.2s;
+}
+.closet-item.worn {
+  background: #e0d7ff;
+  font-weight: bold;
+}
+.closet-item img {
+  border-radius: 6px;
+  box-shadow: 0 1px 4px #0002;
+}

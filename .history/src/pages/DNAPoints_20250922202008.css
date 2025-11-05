@@ -1,0 +1,31 @@
+.dna-points-widget {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(135deg, #ffcc70, #ff8177);
+	padding: 8px 14px;
+	border-radius: 12px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+	width: fit-content;
+	gap: 6px;
+	transition: transform 0.2s ease-in-out;
+}
+
+.dna-points-widget:hover {
+	transform: scale(1.05);
+}
+
+.dna-icon {
+	font-size: 1.2rem;
+}
+
+.dna-label {
+	margin-right: 4px;
+	opacity: 0.9;
+}
+
+.dna-value {
+	font-size: 1.1rem;
+}

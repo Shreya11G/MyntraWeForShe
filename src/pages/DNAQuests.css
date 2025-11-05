@@ -1,0 +1,212 @@
+/* DNA Points Bar */
+.dna-points-bar {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background: linear-gradient(90deg, #fbc2eb 0%, #a6c1ee 100%);
+	border-radius: 1.5rem;
+	padding: 1rem 2rem;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #4b0082;
+	box-shadow: 0 2px 16px #a259ff22;
+	transition: box-shadow 0.3s, transform 0.3s;
+}
+.dna-points-label {
+	font-weight: 600;
+	color: #a259ff;
+}
+.dna-points-value {
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: #8b5cf6;
+	margin-left: 0.5rem;
+	transition: color 0.3s;
+}
+.star-points {
+	color: #fbbf24;
+	width: 2rem;
+	height: 2rem;
+}
+.dna-points-animate {
+	animation: popPoints 0.8s cubic-bezier(.68,-0.55,.27,1.55);
+	box-shadow: 0 4px 32px #a259ff44;
+}
+@keyframes popPoints {
+	0% { transform: scale(1); }
+	30% { transform: scale(1.12); }
+	60% { transform: scale(0.96); }
+	100% { transform: scale(1); }
+}
+.dna-quests-container {
+	padding: 2rem;
+	font-family: Arial, sans-serif;
+}
+
+.dna-quests-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+
+.dna-quests-header h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.active-quests {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: #555;
+	font-size: 0.9rem;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.quests-grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.quest-card {
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 1rem;
+	padding: 1rem;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s;
+}
+
+.quest-card:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quest-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.quest-info {
+	display: flex;
+	gap: 1rem;
+}
+
+.quest-icon {
+	width: 56px;
+	height: 56px;
+	border-radius: 0.75rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.shopping-gradient {
+	background: linear-gradient(90deg, #10b981, #34d399);
+}
+.social-gradient {
+	background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+.styling-gradient {
+	background: linear-gradient(90deg, #8b5cf6, #ec4899);
+}
+.discovery-gradient {
+	background: linear-gradient(90deg, #f97316, #ef4444);
+}
+.default-gradient {
+	background: linear-gradient(90deg, #6b7280, #4b5563);
+}
+
+.quest-meta {
+	display: flex;
+	gap: 1rem;
+	font-size: 0.75rem;
+	color: #555;
+	margin-top: 0.25rem;
+}
+
+.small-icon {
+	width: 12px;
+	height: 12px;
+}
+
+.check-icon {
+	width: 24px;
+	height: 24px;
+	color: #10b981;
+}
+
+.quest-progress {
+	margin-bottom: 1rem;
+}
+
+.progress-label {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.75rem;
+	color: #555;
+	margin-bottom: 0.25rem;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 8px;
+	background: #e5e7eb;
+	border-radius: 4px;
+}
+
+.progress-fill {
+	height: 8px;
+	border-radius: 4px;
+}
+
+.quest-actions {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.start-btn {
+	padding: 0.5rem 1.25rem;
+	border-radius: 1rem;
+	background: linear-gradient(90deg, #3b82f6, #06b6d4);
+	color: white;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.start-btn:hover {
+	opacity: 0.9;
+}
+
+.claim-btn {
+	padding: 0.5rem 1.25rem;
+	border-radius: 1rem;
+	background: #10b981;
+	color: white;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.claim-btn:hover {
+	background: #059669;
+}
+
+.expired-label {
+	padding: 0.5rem 1.25rem;
+	border-radius: 1rem;
+	background: #d1d5db;
+	color: #6b7280;
+	font-weight: 500;
+}

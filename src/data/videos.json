@@ -1,0 +1,23 @@
+[
+	{
+		"_id": "1",
+		"videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+		"caption": "Monsoon Streetwear Look | #rainyday #streetstyle",
+		"username": "@styleguru",
+		"avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+	},
+	{
+		"_id": "2",
+		"videoUrl": "https://www.w3schools.com/html/movie.mp4",
+		"caption": "90s Retro Denim | #throwback #denimlove",
+		"username": "@retroqueen",
+		"avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+	},
+	{
+		"_id": "3",
+		"videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+		"caption": "Minimalist Festive | #minimal #festivefit",
+		"username": "@minimalelegance",
+		"avatar": "https://randomuser.me/api/portraits/men/65.jpg"
+	}
+]

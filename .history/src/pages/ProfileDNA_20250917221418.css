@@ -1,0 +1,173 @@
+.profile-dna-container {
+	max-width: 700px;
+	margin: 2.5rem auto;
+	background: linear-gradient(90deg, #a259ff 0%, #fbc2eb 100%);
+	border-radius: 18px;
+	box-shadow: 0 4px 32px #a259ff22;
+	padding: 2.5rem 2.2rem;
+	color: #222;
+}
+
+.avatar-card {
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 4px 32px #a259ff22;
+	padding: 2rem;
+	margin-bottom: 2.5rem;
+}
+
+.avatar-card h2 {
+	font-weight: 900;
+	font-size: 1.5rem;
+	margin-bottom: 1.2rem;
+	color: #a259ff;
+}
+
+.avatar-card-content {
+	display: flex;
+	gap: 2.5rem;
+	align-items: flex-start;
+}
+
+.avatar-card-left {
+	flex: 0 0 160px;
+	text-align: center;
+}
+
+.avatar-card-left img {
+	width: 140px;
+	height: 180px;
+	object-fit: contain;
+	border-radius: 16px;
+	background: #f7f7f7;
+	border: 2px solid #eee;
+}
+
+.avatar-card-left .avatar-desc {
+	margin-top: 0.7rem;
+	font-weight: 700;
+	color: #888;
+}
+
+.avatar-closet {
+	flex: 1;
+}
+
+.avatar-closet-title {
+	font-weight: 700;
+	margin-bottom: 0.7rem;
+}
+
+.closet-items {
+	display: flex;
+	gap: 1.2rem;
+	flex-wrap: wrap;
+}
+
+.closet-item {
+	cursor: pointer;
+	text-align: center;
+}
+
+.closet-item img {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+	border-radius: 10px;
+	background: #f7f7f7;
+	border: 2px solid #eee;
+}
+
+.closet-item-name {
+	font-size: 0.95rem;
+	margin-top: 0.3rem;
+	color: #a259ff;
+}
+
+/* Tabs */
+.dna-tabs {
+	display: flex;
+	gap: 2.5rem;
+	margin-bottom: 2.2rem;
+}
+
+.dna-tab {
+	background: none;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.dna-tab-active {
+	background: #fff;
+	color: #a259ff;
+}
+
+/* Style Identity */
+.style-identity {
+	font-weight: 700;
+	font-size: 1.15rem;
+	margin-bottom: 1.1rem;
+}
+
+.style-identity-box {
+	background: #fff;
+	border-radius: 12px;
+	padding: 1.2rem;
+	font-size: 1.08rem;
+	color: #a259ff;
+	box-shadow: 0 2px 12px #a259ff11;
+}
+
+/* Evolution history */
+.evolution-entry {
+	background: #fff;
+	border-radius: 12px;
+	padding: 1.1rem;
+	margin-bottom: 1.1rem;
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+	box-shadow: 0 2px 12px #a259ff11;
+}
+
+.evolution-entry span.date {
+	font-weight: 600;
+}
+
+.evolution-entry span.trait-delta {
+	margin-left: auto;
+	color: #43a047;
+	font-weight: 700;
+}
+
+/* Matches */
+.matches-box {
+	background: #fff;
+	border-radius: 12px;
+	padding: 2rem;
+	font-size: 1.08rem;
+	color: #a259ff;
+	box-shadow: 0 2px 12px #a259ff11;
+	text-align: center;
+}
+
+.matches-box button {
+	background: linear-gradient(90deg, #a259ff 0%, #fbc2eb 100%);
+	color: #fff;
+	font-weight: 700;
+	border: none;
+	border-radius: 8px;
+	padding: 0.8rem 2.2rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+.matches-box ul {
+	margin: 0.7rem 0 0 1.2rem;
+	padding: 0;
+}
